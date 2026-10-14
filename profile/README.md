@@ -8,9 +8,22 @@ Naším cílem je, aby informace o dění ve městě a rozhodování jeho samosp
 
 ## Naše projekty
 
-- **[Litovle.cz](https://litovle.cz)** – hlavní web projektu, informace o městě a občanské iniciativy.
-- **[Svoz odpadu](https://svoz.litovle.cz)** – přehled termínů svozu odpadu podle ulic a místních částí.
-- **Usnesení města** – automatizované získávání a zpracování usnesení rady a zastupitelstva města.
+- **[Litovle.cz](https://litovle.cz)** – hlavní web projektu a rozcestník místních informací a nástrojů.
+- **[Usnesení města](https://litovle.cz/usneseni/)** – vyhledávání v usneseních rady a zastupitelstva podle textu, roku, schvalujícího orgánu a automaticky přiřazeného tématu.
+- **[Rozpočtová opatření](https://litovle.cz/rozpoctova-opatreni/)** – přehled změn městského rozpočtu s odkazy na související usnesení.
+- **[Shrnutí jednání zastupitelstva](https://litovle.cz/zastupitelstvo/)** – stručné přehledy jednání s odkazy na přepisy a zdrojové podklady.
+- **[Svoz odpadu](https://svoz.litovle.cz)** – kalendář svozu podle ulic a místních částí, přehled bio kontejnerů a možnost přidání termínů do vlastního kalendáře.
+
+## Otevřený zdrojový kód
+
+Naše nástroje a zpracování dat vyvíjíme veřejně:
+
+- **[litovle.cz](https://github.com/litovle/litovle.cz)** – statický web, vyhledávání a zobrazení zpracovaných dat.
+- **[usneseni-mesta](https://github.com/litovle/usneseni-mesta)** – získávání a zpracování městských PDF, tematické třídění usnesení, propojení s rozpočtovými opatřeními a export dat pro web.
+- **[litovel-resolution-classifier](https://github.com/litovle/litovel-resolution-classifier)** – trénování a vydávání českého modelu pro přiřazování témat městským usnesením.
+
+Zpracování dokumentů a aktualizace dat běží automaticky v GitHub Actions.
+Web používá připravené statické soubory; návštěvník nepotřebuje účet ani přístup k modelu.
 
 ## Naše zásady
 
